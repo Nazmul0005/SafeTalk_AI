@@ -1,6 +1,18 @@
 # MHire Content Moderation & Transcription API
+![Status](https://img.shields.io/badge/status-active-brightgreen) 
+![Python](https://img.shields.io/badge/python-3.10+-blue) 
+![License](https://img.shields.io/badge/license-MIT-green) 
+![OpenAI](https://img.shields.io/badge/OpenAI-API-blue) 
+![Text Moderation](https://img.shields.io/badge/Text-Moderation-orange) 
+![Audio Transcription](https://img.shields.io/badge/Audio-Transcription-orange) 
+![Real-Time](https://img.shields.io/badge/Real--Time-Optimized-brightgreen)
+![Whisper](https://img.shields.io/badge/Whisper-OpenAI-purple)
 
 A FastAPI-based content moderation and audio transcription service designed for dating applications. This project provides robust text moderation and audio transcription capabilities with OpenAI integration.
+
+<p align="center">
+  <img src="images/screenshot.png" alt="Project Screenshot" width="600"/>
+</p>
 
 ## 🚀 Features
 
