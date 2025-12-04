@@ -11,7 +11,7 @@
 A FastAPI-based content moderation and audio transcription service designed for dating applications. This project provides robust text moderation and audio transcription capabilities with OpenAI integration.
 
 <p align="center">
-  <img src="streamlit.png" alt="Project Screenshot" width="600"/>
+  <img src="streamlit.png" alt="Project Screenshot" width="1010"/>
 </p>
 
 ## 🚀 Features
