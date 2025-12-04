@@ -1,0 +1,30 @@
+networks:
+  app-network:
+    driver: bridge
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: fastapi_app_system
+    expose:
+      - '8000'
+    env_file:
+      - .env
+    networks:
+      - app-network
+    restart: always
+
+  nginx:
+    image: nginx:alpine
+    container_name: nginx_proxy2
+    ports:
+      - '0.0.0.0:5019:80'
+    networks:
+      - app-network
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - app
+    restart: always
